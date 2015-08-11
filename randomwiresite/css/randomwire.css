@@ -1,0 +1,166 @@
+* {
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+/* CUSTOM FOUNDATION CODE */
+.row {
+	max-width: 100%;
+	padding: 0px;
+}
+
+/*PAGE CODE */
+
+
+.banner {
+	height: 300px;
+	/*width: 100%;*/
+	display: block;
+	margin-bottom: 80px;
+	background: #c2b59b;
+	box-shadow: 0 0 20px #888;
+}
+
+.heading {
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+h1 {
+	color: #EF4723;
+	font-weight: 100;
+	font-size: 4em;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+}
+
+h2 {
+	color: #EF4723;
+	font-size: 1.8em;
+  	font-weight: 200;
+  	letter-spacing: 1px;
+}
+
+.backbutton {
+  position: absolute;
+  left: 35px;
+  top: 15px;
+  padding: 25px 0 13px 26px;
+  z-index: 100;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+
+.descriptivetext {
+  /*width: 1050px;*/
+  padding: 0 20px 0 20px;
+  display: block;
+  margin: auto;
+  background: none;
+}
+
+.descriptivetext p {
+	color: #565656;	
+	font-size: 1.4em;
+	font-weight: 300;
+	margin: 0 0 20px 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+li  {
+	display: inline-block;
+	list-style: none;
+	padding: 0px 55px 0px 55px;
+	margin-right: 60px;
+	font-family: 'Open Sans', sans-serif;
+	color: #565656;	
+	font-size: 25px;
+	font-weight: 600;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+    color: black;
+    font-weight: bold;
+}
+input[type="checkbox"] {
+	visibility: hidden;
+}
+
+input[type="checkbox"] + label {
+  height: 40px;
+  width: 40px;
+  box-shadow: inset 0px 0px 6px rgba(0,0,0,0.8);
+  background-repeat: no-repeat;
+ }
+
+input[type="checkbox"]:checked + label {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/90/Check_mark_23x20_02.svg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  box-shadow: inset 0px 0px 10px #EF4723;
+}
+.option {
+  width: 1000px;
+  padding: 85px 300px 0 0;
+  display: block;
+  margin: auto;
+  background: none;	
+}
+.option p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #565656;
+	max-width: 450px;
+}
+
+.stickytotal {	
+	/*margin: 25px 0 30px 920px;*/
+	position: fixed;
+	right: 15%;
+	top: 50%;
+	background: #F15939;
+	box-shadow: 0 0 10px #888;
+	height: 100px;
+	display: block;
+	width: 416px;
+}
+.total {
+	margin: 0px 60px 0px 10px;
+	padding: 35px 60px 0px 0px;
+	font-family: 'Open Sans', sans-serif;
+	color: #565656;	
+}
+.total label{
+	font-size: 45px;
+	font-weight: 250;
+}
+	/*MEDIA QUERIES */
+@media only screen and (max-width: 1025px) {
+	.banner {
+		background:  #c2b59b;
+	}
+	.descriptivetext {
+		width: 100%;
+		margin: auto;
+	}
+.amenities {
+	margin: 0 0 30px 0;
+	background-position: 50% 50%;
+	height: 100px;
+	display: block;
+	width: 100%;
+}
+.stickytotal {
+	position: absolute;
+	width: 100%;
+	top: 100%;
+	clear: both;
+}
+
+
+
+
